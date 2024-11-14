@@ -1,0 +1,29 @@
+.location {
+    padding-bottom: 5rem;
+}
+
+.location__title {
+    margin-bottom: 5rem;
+}
+
+.location__map {
+    margin-bottom: 1rem;
+
+    iframe {
+        width: 100%;
+    }
+}
+
+.location__link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    background-color: $bg-accent;
+    color: #FFF;
+    font-size: 2.6rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: $font-main;
+}

@@ -1,0 +1,39 @@
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $font-main;
+    color: $color-main;
+    line-height: 1.2;
+    background-color: $bg-primary;
+}
+
+.wrapper {
+    max-width: 48rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container {
+    padding: 0 20px;
+}
+
+.title {
+    position: relative;
+    font-size: 4.5rem;
+    text-align: center;
+    font-weight: 500;
+
+    &--big {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 6.5rem;
+        z-index: -1;
+        opacity: 0.1;
+        color: #497c5c;
+    }
+}

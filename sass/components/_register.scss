@@ -1,0 +1,38 @@
+.register {
+    padding-bottom: 5rem;
+}
+
+.register__title {
+    margin-bottom: 5rem;
+}
+
+.register__list {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.register__info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 1rem;
+}
+
+.register__desc {
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 2rem 3rem;
+    border: .1rem solid $color-main;
+    background-color: #FFF;
+
+    &--name {
+        margin-left: auto;
+        margin-top: -1rem;
+    }
+
+    &--phone {
+        margin-top: -1rem;
+    }
+}

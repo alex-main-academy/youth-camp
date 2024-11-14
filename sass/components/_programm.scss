@@ -1,0 +1,36 @@
+.programm {
+    padding: 5rem 0;
+    font-family: $font-number;
+}
+
+.programm__title {
+    margin-bottom: 5rem;
+    font-family: $font-main;
+}
+
+.programm__list {
+    border: .1rem solid #ccc;
+    padding: 2rem;
+}
+
+.programm__item {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    border-bottom: .1rem solid #ccc;
+
+    &:first-child {
+        padding-top: none;
+    }
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.programm__event {
+    font-size: 3rem;
+    line-height: 1;
+}
