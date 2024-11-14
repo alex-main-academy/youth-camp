@@ -161,6 +161,7 @@ body {
   font-size: 5.6rem;
   margin-top: 10rem;
   color: #606060;
+  overflow: visible;
 }
 
 .hero__title {
@@ -519,13 +520,13 @@ body {
 
 .footer {
   background-color: #4d4a4a;
-  padding: 2rem 0;
 }
 
 .footer__link {
   width: 100%;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
+  padding: 2rem 0;
 }
 .footer__link .container {
   display: flex;
