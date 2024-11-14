@@ -160,7 +160,7 @@ body {
   font-family: "Great Vibes", cursive;
   font-size: 5.6rem;
   margin-top: 10rem;
-  color: #979797;
+  color: #606060;
 }
 
 .hero__title {
@@ -444,7 +444,7 @@ body {
 }
 
 .register {
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
 }
 
 .register__title {
@@ -469,7 +469,7 @@ body {
 
 .register__item {
   position: relative;
-  background-color: #2F2F2F;
+  background-color: #4d4a4a;
   color: #FFF;
   border-radius: 1.5rem;
   padding: 2rem;
@@ -505,7 +505,7 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
-  background-color: #2F2F2F;
+  background-color: #4d4a4a;
   border: 0.3rem solid #FFF;
   text-decoration: none;
   font-size: 1.8rem;
@@ -515,4 +515,27 @@ body {
   border-right: none;
   border-top-left-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;
+}
+
+.footer {
+  background-color: #4d4a4a;
+  padding: 2rem 0;
+}
+
+.footer__link {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+.footer__link .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 2rem;
+  color: #FFF;
+}
+
+.footer__name {
+  display: inline-block;
 }/*# sourceMappingURL=index.css.map */
