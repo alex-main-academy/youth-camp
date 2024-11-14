@@ -1,6 +1,5 @@
 .programm {
     padding: 5rem 0;
-    font-family: $font-number;
 }
 
 .programm__title {
@@ -9,28 +8,70 @@
 }
 
 .programm__list {
-    border: .1rem solid #ccc;
-    padding: 2rem;
+    padding: 3rem 0 6rem 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    row-gap: 7rem;
+    flex-wrap: wrap;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        height: 100%;
+        width: .1rem;
+        background-color: #ccc;
+    }
 }
 
 .programm__item {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-    border-bottom: .1rem solid #ccc;
+    position: relative;
+    width: 50%;
+    text-align: right;
+    padding-right: 2rem;
 
-    &:first-child {
-        padding-top: none;
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: -2rem;
+        right: 0;
+        width: 60%;
+        border-bottom: .1rem dashed #ccc;
     }
 
-    &:last-child {
-        border-bottom: none;
+    &:nth-child(2n) {
+        text-align: left;
+        padding-right: 0;
+        padding-left: 2rem;
+
+        &::before {
+            right: auto;
+            left: 0;
+        }
+    }
+
+    &--icon {
+        display: flex;
+        justify-content: end;
+        padding-right: 6rem;
+
+        &::before {
+            display: none;
+        }
+
+        &:nth-child(2n) {
+            justify-content: start;
+            padding-left: 6rem;
+        }
     }
 }
 
 .programm__event {
     font-size: 3rem;
     line-height: 1;
+    font-weight: 600;
+    font-family: $font-number;
 }
