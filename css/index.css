@@ -525,24 +525,17 @@ body {
 }
 
 .footer {
-  background-color: #4d4a4a;
+  padding-block: 3rem;
+}
+
+.footer .container {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
 }
 
 .footer__link {
-  width: 100%;
-  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
   text-decoration: none;
-  padding: 2rem 0;
-}
-.footer__link .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  font-size: 2rem;
-  color: #FFF;
-}
-
-.footer__name {
-  display: inline-block;
+  padding: 0.5rem;
 }/*# sourceMappingURL=index.css.map */
